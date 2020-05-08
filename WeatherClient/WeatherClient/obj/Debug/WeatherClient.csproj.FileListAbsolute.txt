@@ -1,0 +1,15 @@
+C:\Users\pasho\source\repos\WeatherClient\WeatherClient\bin\Debug\WeatherClient.exe.config
+C:\Users\pasho\source\repos\WeatherClient\WeatherClient\bin\Debug\WeatherClient.exe
+C:\Users\pasho\source\repos\WeatherClient\WeatherClient\bin\Debug\WeatherClient.pdb
+C:\Users\pasho\source\repos\WeatherClient\WeatherClient\obj\Debug\WeatherClient.csprojAssemblyReference.cache
+C:\Users\pasho\source\repos\WeatherClient\WeatherClient\obj\Debug\MainWindow.g.cs
+C:\Users\pasho\source\repos\WeatherClient\WeatherClient\obj\Debug\App.g.cs
+C:\Users\pasho\source\repos\WeatherClient\WeatherClient\obj\Debug\WeatherClient_MarkupCompile.cache
+C:\Users\pasho\source\repos\WeatherClient\WeatherClient\obj\Debug\WeatherClient_MarkupCompile.lref
+C:\Users\pasho\source\repos\WeatherClient\WeatherClient\obj\Debug\MainWindow.baml
+C:\Users\pasho\source\repos\WeatherClient\WeatherClient\obj\Debug\WeatherClient.g.resources
+C:\Users\pasho\source\repos\WeatherClient\WeatherClient\obj\Debug\WeatherClient.Properties.Resources.resources
+C:\Users\pasho\source\repos\WeatherClient\WeatherClient\obj\Debug\WeatherClient.csproj.GenerateResource.cache
+C:\Users\pasho\source\repos\WeatherClient\WeatherClient\obj\Debug\WeatherClient.csproj.CoreCompileInputs.cache
+C:\Users\pasho\source\repos\WeatherClient\WeatherClient\obj\Debug\WeatherClient.exe
+C:\Users\pasho\source\repos\WeatherClient\WeatherClient\obj\Debug\WeatherClient.pdb

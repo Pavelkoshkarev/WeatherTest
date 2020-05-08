@@ -1,0 +1,16 @@
+C:\Users\pasho\source\repos\WcfWeather\WcfWeather\bin\WcfWeather.dll.config
+C:\Users\pasho\source\repos\WcfWeather\WcfWeather\bin\WcfWeather.dll
+C:\Users\pasho\source\repos\WcfWeather\WcfWeather\bin\WcfWeather.pdb
+C:\Users\pasho\source\repos\WcfWeather\WcfWeather\bin\BouncyCastle.Crypto.dll
+C:\Users\pasho\source\repos\WcfWeather\WcfWeather\bin\Google.Protobuf.dll
+C:\Users\pasho\source\repos\WcfWeather\WcfWeather\bin\MySql.Data.dll
+C:\Users\pasho\source\repos\WcfWeather\WcfWeather\bin\Renci.SshNet.dll
+C:\Users\pasho\source\repos\WcfWeather\WcfWeather\bin\Ubiety.Dns.Core.dll
+C:\Users\pasho\source\repos\WcfWeather\WcfWeather\bin\Google.Protobuf.xml
+C:\Users\pasho\source\repos\WcfWeather\WcfWeather\bin\MySql.Data.xml
+C:\Users\pasho\source\repos\WcfWeather\WcfWeather\bin\Renci.SshNet.xml
+C:\Users\pasho\source\repos\WcfWeather\WcfWeather\obj\Release\WcfWeather.csprojAssemblyReference.cache
+C:\Users\pasho\source\repos\WcfWeather\WcfWeather\obj\Release\WcfWeather.csproj.CoreCompileInputs.cache
+C:\Users\pasho\source\repos\WcfWeather\WcfWeather\obj\Release\WcfWeather.csproj.CopyComplete
+C:\Users\pasho\source\repos\WcfWeather\WcfWeather\obj\Release\WcfWeather.dll
+C:\Users\pasho\source\repos\WcfWeather\WcfWeather\obj\Release\WcfWeather.pdb

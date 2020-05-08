@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a3e951d1-ee6c-4583-a4c3-13824d6ea504" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:52505/ServiceWeather.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceWeather.wsdl" MetadataType="Wsdl" ID="f3b1e3d3-3ced-4f4a-b5c9-f86feb6bf197" SourceId="1" SourceUrl="http://localhost:52505/ServiceWeather.svc?wsdl" />
+    <MetadataFile FileName="ServiceWeather.disco" MetadataType="Disco" ID="e3846a3d-d03a-47f6-a40e-f74c5c836f59" SourceId="1" SourceUrl="http://localhost:52505/ServiceWeather.svc?disco" />
+    <MetadataFile FileName="ServiceWeather.xsd" MetadataType="Schema" ID="a3792828-2f77-46c2-a3bd-1a5f9475f8f2" SourceId="1" SourceUrl="http://localhost:52505/ServiceWeather.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServiceWeather1.xsd" MetadataType="Schema" ID="933215f6-7335-4149-ab35-ebbb826db15b" SourceId="1" SourceUrl="http://localhost:52505/ServiceWeather.svc?xsd=xsd3" />
+    <MetadataFile FileName="ServiceWeather2.xsd" MetadataType="Schema" ID="bb153a97-5ce1-4a24-ab2c-f71146fe287d" SourceId="1" SourceUrl="http://localhost:52505/ServiceWeather.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServiceWeather3.xsd" MetadataType="Schema" ID="03385cb4-5f0c-4a40-a3aa-f4d4decd9ff7" SourceId="1" SourceUrl="http://localhost:52505/ServiceWeather.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

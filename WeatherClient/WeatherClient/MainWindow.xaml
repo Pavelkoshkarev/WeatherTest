@@ -1,0 +1,68 @@
+﻿<Window x:Class="WeatherClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WeatherClient"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Style>
+        <Style x:Name="CustomWindowStyle" TargetType="{x:Type Window}">
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
+    </Window.Style>
+    <!--<Window.Resources>
+        <ResourceDictionary>
+            <Style x:Key="ValueTextBlock" TargetType="{x:Type TextBlock}">
+                <Setter Property="Width" Value="150"/>
+                <Setter Property="Foreground" Value="Red"/>
+            </Style>
+        </ResourceDictionary>
+    </Window.Resources>-->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <TextBlock Width="70" Margin="5 0 0 0 ">
+                Город:
+            </TextBlock>
+            <ComboBox MinWidth="200" SelectedItem="{Binding SelectedCity}" ItemsSource="{Binding CitiesList}" FontSize="20"></ComboBox>
+            <DatePicker FontSize="12" RenderTransformOrigin="0,0" SelectedDate="{Binding SelectedDate, Mode=TwoWay}">
+                <DatePicker.LayoutTransform>
+                    <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                </DatePicker.LayoutTransform>
+            </DatePicker>
+            <Button  Command="{Binding LoadCommand}">Загрузить</Button>
+        </StackPanel>
+        <StackPanel Grid.Row="1">
+            <StackPanel.Resources>
+                <Style TargetType="TextBlock">
+                    <Setter Property="MinWidth" Value="300"/>
+                </Style>
+            </StackPanel.Resources>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock>Погода:</TextBlock>
+                <TextBlock Text="{Binding Info.ConditionComment}"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock>Максимальная температура:</TextBlock>
+                <TextBlock Text="{Binding Info.TemperatureMax}"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock>Минимальная температура:</TextBlock>
+                <TextBlock Text="{Binding Info.TemperatureMin}"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock>Скорость ветра (м/с):</TextBlock>
+                <TextBlock Text="{Binding Info.Wind}"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock>Уровень влажности:</TextBlock>
+                <TextBlock Text="{Binding Info.Rainfall}"></TextBlock>
+            </StackPanel>
+            
+        </StackPanel>
+    </Grid>
+</Window>
